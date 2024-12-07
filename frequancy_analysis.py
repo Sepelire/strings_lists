@@ -1,3 +1,6 @@
+# Ввод: строки, пока не будет введена строка «ФИНИШ»
+# Вывод: один символ в нижнем регистре — наиболее часто встречающийся
+
 max_count = 0
 words_arr = []
 list_string = []
@@ -21,3 +24,9 @@ for letter in string:
         max_count = letter_count
         common_letter = letter
 print(common_letter)
+# Финики Фокачча Зайка
+# Филин Фосфор Светофор
+# Фехтовальщик Форма
+# ФИНИШ
+
+# ф
