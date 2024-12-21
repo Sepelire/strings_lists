@@ -1,3 +1,5 @@
+# Ввод: в единственной строке записывается последовательность натуральных чисел, разделённых пробелами
+# Вывод: требуется вывести одно натуральное число — НОД всех данных чисел
 numbers_str = input().split()
 numbers_arr = []
 for num_str in numbers_str:
@@ -13,3 +15,6 @@ while len(numbers_arr) > 1:
     numbers_arr.pop(1)
     numbers_arr[0] = a
 print(numbers_arr[0])
+# 102 39 768
+
+# 3

@@ -1,3 +1,5 @@
+# Ввод: строка
+# Вывод: Если введённая строка относится к палиндрому, то вывести YES, а иначе — NO
 string = input().lower().strip()
 string_arr = []
 reversed_string = []
@@ -11,3 +13,6 @@ if string_arr == reversed_string:
     print('YES')
 else:
     print('NO')
+# А роза упала на лапу Азора
+
+# YES

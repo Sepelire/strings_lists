@@ -1,3 +1,5 @@
+# Ввод: строка, содержащая разделённые пробелами целые числа и знаки операций +, -, *
+# Вывод: целое число — результат вычисления выражения
 input_string = input().strip()
 string_arr = input_string.split()
 stack = []
@@ -17,3 +19,6 @@ for char in string_arr:
     else:
         stack.append(int(char))
 print(stack[0])
+# 10 15 - 7 *
+
+# -35

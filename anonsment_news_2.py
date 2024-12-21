@@ -1,3 +1,7 @@
+# Ввод: натуральное число — необходимая длина заголовка
+#       натуральное число — количество строк в заголовке новости
+#       в каждой из последующих строк записано по одной строке заголовка
+# Вывод: сокращённый заголовок
 remaining_len = int(input()) - 3
 string_count = int(input())
 string_arr = []
@@ -19,7 +23,6 @@ for string in string_arr:
             available_len = remaining_len - current_len
             print(string[:available_len] + '...')
             break
-
 # 12
 # 3
 # 12345
